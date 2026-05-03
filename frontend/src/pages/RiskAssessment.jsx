@@ -15,7 +15,7 @@ const RiskAssessment = () => {
 
         setLoading(true);
         try {
-            const response = await apiClient.post('/risk/', { analysis_output: analysisData });
+            const response = await apiClient.post('/risk', { analysis_output: analysisData });
             setRiskData(response.data);
             localStorage.setItem('riskData', JSON.stringify(response.data));
         } catch (error) {

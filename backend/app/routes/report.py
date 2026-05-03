@@ -8,7 +8,7 @@ import uuid
 
 router = APIRouter()
 
-@router.post("/")
+@router.post("")
 async def generate_report(request: ReportRequest):
     report_content_dict = reporting_agent.run(request)
 

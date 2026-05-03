@@ -18,7 +18,7 @@ const Reports = () => {
 
         setLoading(true);
         try {
-            const response = await apiClient.post('/report/', {
+            const response = await apiClient.post('/report', {
                 analysis_output: analysisData,
                 risk_output: riskData,
                 decision_output: decisionData,

@@ -19,7 +19,7 @@ const Overview = () => {
         if (notes) formData.append('text_input', notes);
 
         try {
-            const response = await apiClient.post('/analyze/', formData, {
+            const response = await apiClient.post('/analyze', formData, {
                 headers: { 'Content-Type': 'multipart/form-data' }
             });
 

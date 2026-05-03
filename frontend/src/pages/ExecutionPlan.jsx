@@ -19,14 +19,14 @@ const ExecutionPlan = () => {
         setLoading(true);
         try {
 
-            const decisionRes = await apiClient.post('/decision/', {
+            const decisionRes = await apiClient.post('/decision', {
                 analysis_output: analysisData,
                 risk_output: riskData,
                 goals: "Maximize revenue while maintaining stability."
             });
             localStorage.setItem('decisionData', JSON.stringify(decisionRes.data));
 
-            const executionRes = await apiClient.post('/execution/', {
+            const executionRes = await apiClient.post('/execution', {
                 decision_output: decisionRes.data
             });
             setExecutionData(executionRes.data);

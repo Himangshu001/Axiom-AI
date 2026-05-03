@@ -5,7 +5,7 @@ from app.models.agent_models import AnalysisRequest, AnalysisResponse
 
 router = APIRouter()
 
-@router.post("/", response_model=AnalysisResponse)
+@router.post("", response_model=AnalysisResponse)
 async def run_analysis(
     file: UploadFile = File(None),
     text_input: str = Form(None)

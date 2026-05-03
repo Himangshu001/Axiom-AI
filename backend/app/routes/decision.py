@@ -4,7 +4,7 @@ from app.models.agent_models import DecisionRequest, DecisionResponse
 
 router = APIRouter()
 
-@router.post("/", response_model=DecisionResponse)
+@router.post("", response_model=DecisionResponse)
 async def run_decision_making(request: DecisionRequest):
     result = decision_agent.run(request)
 

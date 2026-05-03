@@ -4,7 +4,7 @@ from app.models.agent_models import RiskRequest, RiskResponse
 
 router = APIRouter()
 
-@router.post("/", response_model=RiskResponse)
+@router.post("", response_model=RiskResponse)
 async def run_risk_assessment(request: RiskRequest):
     result = risk_agent.run(request)
 
