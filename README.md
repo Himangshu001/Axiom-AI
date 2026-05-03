@@ -1,4 +1,4 @@
-# Autonomous AI Business Operations Manager
+# Axiom AI 
 
 An intelligent, multi-agent AI system designed to automate and optimize business operations. This platform leverages specialized AI agents to analyze data, assess risks, make strategic decisions, and execute operational tasks.
 
