@@ -15,7 +15,7 @@ const Sidebar = () => {
         <aside className="sidebar">
             <div style={{ marginBottom: '2rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                 <div style={{ width: '32px', height: '32px', background: 'var(--accent-primary)', borderRadius: '8px' }}></div>
-                <h2 style={{ fontSize: '1.25rem', fontWeight: 'bold', lineHeight: '1.2' }}>Autonomous AI<br />Business Ops Manager</h2>
+                <h2 style={{ fontSize: '1.25rem', fontWeight: 'bold', lineHeight: '1.2' }}>Axiom AI</h2>
             </div>
 
             <nav style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>

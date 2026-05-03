@@ -25,7 +25,7 @@ async def global_exception_handler(request: Request, exc: Exception):
 
 @app.get("/")
 def root():
-    return {"message": "Autonomous AI Business Ops Manager API is running"}
+    return {"message": "Axiom AI API is running"}
 
 app.include_router(analysis.router, prefix="/analyze", tags=["analysis"])
 app.include_router(risk.router, prefix="/risk", tags=["risk"])

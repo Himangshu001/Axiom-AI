@@ -38,7 +38,7 @@ const Overview = () => {
         <div>
             <h1 style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '1rem', color: 'var(--text-primary)' }}>Overview</h1>
             <p style={{ color: 'var(--text-secondary)', marginBottom: '2rem' }}>
-                Welcome to **Autonomous AI Business Operations Manager**. Upload your data to get started.
+                Welcome to **Axiom AI**. Upload your data to get started.
             </p>
 
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2rem' }}>

@@ -6,7 +6,7 @@ logger = logging.getLogger(__name__)
 class PDFService(FPDF):
     def header(self):
         self.set_font('Arial', 'B', 15)
-        self.cell(0, 10, 'Autonomous AI Business Report', 0, 1, 'C')
+        self.cell(0, 10, 'Axiom AI Report', 0, 1, 'C')
         self.ln(10)
 
     def footer(self):
